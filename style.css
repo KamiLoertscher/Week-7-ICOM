@@ -1,0 +1,141 @@
+.main { 
+    background-color: black;
+    width:100vw; 
+    height: 100vh; 
+   }
+   
+   .Gallery { 
+       background-color: purple;
+       width: 80vw; 
+       height: 80vh; 
+       display: grid; 
+       grid-template-columns: 1fr 1fr ;
+       grid-template-rows: 1fr 1fr ;
+       justify-content: center;
+       align-items: center;
+       margin: 0px auto;
+   
+   }
+   
+   .mainImage { 
+       height: 100%;
+       width: 100%;
+   }
+   
+   .secondImage { 
+       height: 100%;
+       width: 100%;
+   }
+   
+   .thirdImage { 
+       height: 100%;
+       width: 100%;
+   }
+   
+   .fourthImage { 
+       height: 100%;
+       width: 100%;
+   }
+   
+   /* MEDIA QUERY STRCUTURE  */
+   
+   /* always start with the folowing:  */
+   /* 
+   @media () {} 
+   */
+   
+   
+   
+   /* Mobile (up to 600px wide)
+   
+   Tablet (601px to 1024px wide)
+   
+   Desktop (1025px and above) */
+   
+   /* MOBILE */
+   
+   @media (max-width: 600px) {
+   
+       .main { 
+           background-color: pink;
+           width:100vw; 
+           height: 100vh; 
+          }
+   
+          .Gallery { 
+           background-color: purple;
+           width: 100vw; 
+           height: 100vh; 
+           display: grid; 
+           grid-template-columns: 1fr 1fr ;
+           grid-template-rows: 1fr 1fr ;
+           justify-content: center;
+           align-items: center;
+           margin: 0px auto;
+       
+       }
+   
+   }
+   
+   @media (min-width: 624px) and (max-width: 1024px) {
+       .main { 
+           background-color: pink;
+           width:90vw; 
+           height: 90vh; 
+          }
+   
+          .Gallery { 
+           background-color: purple;
+           width: 100vw; 
+           height: 100vh; 
+           display: grid; 
+           grid-template-columns: 1fr 1fr 1fr ;
+           grid-template-rows: 1fr 1fr ;
+           justify-content: center;
+           align-items: center;
+           margin: 0px auto;
+       
+       }
+   
+   }
+   /* 
+   DESKTOPP MEDIA QUERY  */
+   
+   @media (min-width: 1024px) { .main { 
+       background-color: pink;
+       width:90vw; 
+       height: 90vh; 
+      }
+   
+      .Gallery { 
+       background-color: purple;
+       width: 100vw; 
+       height: 100vh; 
+       display: grid; 
+       grid-template-columns: 1fr 1fr 1fr 1fr ;
+       grid-template-rows: 1fr 1fr ;
+       justify-content: center;
+       align-items: center;
+       margin: 0px auto;
+   
+   }
+   }
+   
+   
+   /* SUPER SMALL PHONE */
+   
+   @media (max-width: 250px) {
+   
+      .Gallery { 
+       background-color: purple;
+       width: 100vw; 
+       height: 100vh; 
+       display: grid; 
+       grid-template-columns: 1fr ;
+       grid-template-rows: 1fr;
+       justify-content: center;
+       align-items: center;
+       margin: 0px auto;
+   
+   }
+   }
